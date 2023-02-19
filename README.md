@@ -22,7 +22,7 @@ Country country1 = new Country("TR", "Turkey", null, 0, null, null, null, null);
 
 ```
 
-As the number of parameters increases, the readability will decrease. The probability of error will increase. With the Builder design pattern, if you want to set a field to null, you don't need to do anything.
+As the number of parameters increases, the readability will decrease. The probability of error will increase. With the Builder design pattern, if you want to set a field to null, you don't need to do anything. We can also use it like this by adding the @Builder annotation.
 
 ```
 @Data
